@@ -40,7 +40,7 @@ else
 fi
 
 # Trigger alacritty config reload
-touch "$HOME/.config/alacritty/alacritty.toml"
+# touch "$HOME/.config/alacritty/alacritty.toml"
 
 # Restart components to apply new theme
 pkill -SIGUSR2 btop
